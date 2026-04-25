@@ -205,6 +205,7 @@ curl -X POST http://localhost:8765/query \
 | [pfc-vector](https://github.com/ImpossibleForge/pfc-vector) | Vector.dev HTTP sink |
 | [pfc-kafka-consumer](https://github.com/ImpossibleForge/pfc-kafka-consumer) | Kafka → PFC consumer |
 | [pfc-otel-collector](https://github.com/ImpossibleForge/pfc-otel-collector) | OpenTelemetry collector |
+| [pfc-grafana](https://github.com/ImpossibleForge/pfc-grafana) | Grafana data source plugin for PFC archives |
 
 ---
 
