@@ -208,9 +208,12 @@ curl -X POST http://localhost:8765/query \
 
 ---
 
+## Disclaimer
+
+pfc-telegraf is an independent open-source project and is not affiliated with, endorsed by, or associated with Telegraf, InfluxData, Inc., or any related projects.
+
 ## License
 
-MIT License — see [LICENSE](LICENSE).
+pfc-telegraf (this repository) is released under the MIT License — see [LICENSE](LICENSE).
 
-This project is an independent plugin and is not affiliated with or endorsed by InfluxData, Inc.
-The pfc-jsonl compression format is governed by a separate proprietary license.
+The PFC-JSONL binary (pfc_jsonl) is proprietary software — free for personal and open-source use. Commercial use requires a license: info@impossibleforge.com
