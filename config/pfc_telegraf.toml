@@ -1,0 +1,22 @@
+# pfc-telegraf configuration
+# All settings can also be overridden via environment variables.
+
+[server]
+host    = "0.0.0.0"
+port    = 8767
+api_key = ""          # Optional: set to require authentication
+
+[buffer]
+output_dir  = "/var/lib/pfc-telegraf"   # Where .pfc files are written
+prefix      = "telegraf"                 # Output filename prefix
+rotate_mb   = 64                         # Flush when buffer reaches this size
+rotate_sec  = 3600                       # Flush at least every N seconds
+
+[pfc]
+binary = "/usr/local/bin/pfc_jsonl"     # Path to pfc_jsonl binary
+
+[s3]
+enabled = false
+bucket  = ""                             # e.g. "my-log-archive"
+prefix  = "telegraf/"                    # S3 key prefix
+region  = "us-east-1"

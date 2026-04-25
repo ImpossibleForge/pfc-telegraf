@@ -1,0 +1,14 @@
+__pycache__/
+*.py[cod]
+*.pfc
+*.pfc.bidx
+*.pfc.idx
+*.jsonl
+dist/
+build/
+*.egg-info/
+.venv/
+venv/
+.env
+*.log
+/tmp/
