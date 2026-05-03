@@ -194,18 +194,14 @@ curl -X POST http://localhost:8765/query \
 
 ---
 
-## Related Projects
+## Part of the PFC Ecosystem
 
-| Project | Role |
+**[→ View all PFC tools & integrations](https://github.com/ImpossibleForge/pfc-jsonl#ecosystem)**
+
+| Direct integration | Why |
 |---|---|
-| [pfc-jsonl](https://github.com/ImpossibleForge/pfc-jsonl) | Core compression binary |
-| [pfc-gateway](https://github.com/ImpossibleForge/pfc-gateway) | HTTP query API for `.pfc` archives |
-| [pfc-duckdb](https://github.com/ImpossibleForge/pfc-duckdb) | DuckDB community extension |
-| [pfc-fluentbit](https://github.com/ImpossibleForge/pfc-fluentbit) | Fluent Bit output plugin |
-| [pfc-vector](https://github.com/ImpossibleForge/pfc-vector) | Vector.dev HTTP sink |
-| [pfc-kafka-consumer](https://github.com/ImpossibleForge/pfc-kafka-consumer) | Kafka → PFC consumer |
-| [pfc-otel-collector](https://github.com/ImpossibleForge/pfc-otel-collector) | OpenTelemetry collector |
-| [pfc-grafana](https://github.com/ImpossibleForge/pfc-grafana) | Grafana data source plugin for PFC archives |
+| [pfc-gateway](https://github.com/ImpossibleForge/pfc-gateway) | Query the archives pfc-telegraf creates — HTTP REST, no DuckDB required |
+| [pfc-vector](https://github.com/ImpossibleForge/pfc-vector) | Alternative ingest — high-performance Rust daemon for the same HTTP metrics pipeline |
 
 ---
 
