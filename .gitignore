@@ -12,3 +12,7 @@ venv/
 .env
 *.log
 /tmp/
+
+# PFC buffer files
+.pfc_buffer.jsonl
+.pfc_buffer.compressing
