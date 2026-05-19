@@ -4,7 +4,7 @@
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
 [![Python](https://img.shields.io/badge/python-3.11%2B-blue.svg)](https://python.org)
-[![PFC-JSONL](https://img.shields.io/badge/pfc--jsonl-v3.4.4-orange.svg)](https://github.com/ImpossibleForge/pfc-jsonl)
+[![PFC-JSONL](https://img.shields.io/badge/pfc--jsonl-green.svg)](https://github.com/ImpossibleForge/pfc-jsonl)
 
 Telegraf collects metrics from hundreds of sources. pfc-telegraf receives those metrics via HTTP, buffers them, and compresses them to `.pfc` — up to **90% smaller than raw JSONL**, queryable by timestamp without full decompression.
 
