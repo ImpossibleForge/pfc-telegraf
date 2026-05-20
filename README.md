@@ -31,13 +31,21 @@ Telegraf (outputs.http) ──► pfc-telegraf :8767 ──► .pfc + .bidx ─�
 ```bash
 pip install fastapi uvicorn toml
 
-# Download pfc_jsonl binary
-curl -L https://github.com/ImpossibleForge/pfc-jsonl/releases/latest/download/pfc_jsonl_linux_amd64 \
+# Linux x64
+curl -L https://github.com/ImpossibleForge/pfc-jsonl/releases/latest/download/pfc_jsonl-linux-x64 \
      -o /usr/local/bin/pfc_jsonl && chmod +x /usr/local/bin/pfc_jsonl
 
-# macOS (Apple Silicon)
-curl -L https://github.com/ImpossibleForge/pfc-jsonl/releases/latest/download/pfc_jsonl_macos_arm64 \
+# macOS Apple Silicon
+curl -L https://github.com/ImpossibleForge/pfc-jsonl/releases/latest/download/pfc_jsonl-macos-arm64 \
      -o /usr/local/bin/pfc_jsonl && chmod +x /usr/local/bin/pfc_jsonl
+
+# macOS Intel
+curl -L https://github.com/ImpossibleForge/pfc-jsonl/releases/latest/download/pfc_jsonl-macos-x64 \
+     -o /usr/local/bin/pfc_jsonl && chmod +x /usr/local/bin/pfc_jsonl
+
+# Windows (PowerShell)
+Invoke-WebRequest https://github.com/ImpossibleForge/pfc-jsonl/releases/latest/download/pfc_jsonl-windows-x64.exe `
+  -OutFile "$env:LOCALAPPDATA\Microsoft\WindowsApps\pfc_jsonl.exe"
 ```
 
 ---
